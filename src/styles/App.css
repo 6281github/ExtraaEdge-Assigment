@@ -1,0 +1,40 @@
+
+body{
+  height:100%;
+  width:100%;
+  margin:0;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: white;
+
+
+}
+
+.showCards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 1rem;
+  column-gap: 2rem;
+}
+
+.ImageView {
+  max-width: 20vw;
+  max-height: auto;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+img{
+  height:100px;
+  width: 100px;
+  margin: auto;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  row-gap: 2rem;
+}
+.heart{
+  color: solid red;
+}
+ 
