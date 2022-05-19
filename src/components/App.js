@@ -1,6 +1,6 @@
 import Image from "./Components/Image";
 import { useState, useEffect } from "react";
-import './App.css'
+import '../style/App.css'
 
 
 
